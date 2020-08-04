@@ -1,0 +1,95 @@
+<html>
+<head>
+<style>
+     body { background-color: #3c3c3c; 
+      text-align:center;
+      
+      }
+      .tab {    
+   overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+} 
+   .tab-wrap {
+  -webkit-transition: 0.3s box-shadow ease;
+  transition: 0.3s box-shadow ease;
+  border-radius: 6px;
+  max-width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  position: relative;
+  list-style: none;
+  background-color: #fff;
+  margin: 40px 0;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+   .tab:checked:nth-of-type(1) ~ .tab__content:nth-of-type(1) {
+  opacity: 1;
+  -webkit-transition: 0.5s opacity ease-in, 0.8s -webkit-transform ease;
+  transition: 0.5s opacity ease-in, 0.8s -webkit-transform ease;
+  transition: 0.5s opacity ease-in, 0.8s transform ease;
+  transition: 0.5s opacity ease-in, 0.8s transform ease, 0.8s -webkit-transform ease;
+  position: relative;
+  top: 0;
+  z-index: 100;
+  -webkit-transform: translateY(0px);
+          transform: translateY(0px);
+  text-shadow: 0 0 0;
+}
+  .tab__content {
+  padding: 10px 25px;
+  background-color: transparent;
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+  opacity: 0;
+  left: 0;
+  -webkit-transform: translateY(-3px);
+          transform: translateY(-3px);
+  border-radius: 6px;
+}  
+.fa {
+         padding: 10px;
+         font-size: 150px;
+         width: 10px;
+         text-align: right;
+         text-decoration: none;
+         margin: 5px 2px;
+        }
+   .fa-instagram {
+                background: #125688;
+                 color: white;
+                 }
+   .fa {
+         padding: 10px;
+         font-size: 150px;
+         width: 10px;
+         text-align: right;
+         text-decoration: none;
+         margin: 5px 2px;
+        }
+   .fa-twitter {
+                background: #125688;
+                 color: white;
+                 }
+</style>
+</head>
+<body>
+    <div class="content"><details>
+        <summary style="font-family:verdana ; color:  #FFCC00; text-align:center; font-size:200%;">Contact ME !</summary>
+        <p><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><a href="https://www.instagram.com/" class="fa fa-instagram"></a>
+           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><a href="https://twitter.com/home" class="fa fa-twitter"></a>
+           </p>
+         </details>
+         <div>
+<pre>
+<p style="font-family:verdana ; color:  #FFCC00; text-align:center; font-size:200%;">
+    Thanks for seeing my Portfolio.
+    You can contact me on Instagram and Twitter !
+</p>
+</pre>
+</body>
+</html>
